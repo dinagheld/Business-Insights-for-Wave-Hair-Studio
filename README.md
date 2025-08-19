@@ -29,8 +29,7 @@ Here is the list of the fields disclosed in the log: <br/>
 <br/>
 **Standard price** - The cost of the product or service before discount <br/>
 <br/>
- <br/>
- <br/>
+<br/>
 **PROMOCODES:**  <br/>
 <br/> 
 **Promocode** - Promocode for a discount<br/>
@@ -49,4 +48,5 @@ Prior to working with the dataset it was cleaned from duplicates, manual errors 
 <br/>
 ## Data enrichment
 The new attributes and calculated fields were added to the initial dataset for further analysis. The new fileds are colored in blue while initial ones are marked green. 
-
+Since the salon renders hair services as well as sells hair products, the categorization between service and physical product was introduced to understand the content of revenue.
+In order to dive into analysis of promo campaigns the information about applied discount (percent and absolute value) was mapped to each transaction. Based on that we were able too derive the amount after discount - the net amount received by the salon. 
