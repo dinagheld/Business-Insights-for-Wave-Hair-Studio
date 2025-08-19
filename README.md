@@ -12,6 +12,7 @@ c. calculate the average check amount for each promo campaign. <br/>
 The log the salon has provided us with is stored in Google Sheets and has 2 sheets: export and promocodes. In the 'export' sheet we have all the transactions the salon encountered with, containing both income and expense content for the 6 months of operation. The 'promocodes' sheet holds information about marketing campaigns employed to support the sales, revealing data about the campaign that was used and the its discount given to customers.  <br/>
  <br/>
 Here is the list of the fields disclosed in the log: <br/>
+<br/>
 **EXPORT:** <br/>
  <br/>
 **ID** - A unique identification code is assigned to both income and expense transactions. The identifier is entered manually and represents a sequential transaction number. <br/>
@@ -29,7 +30,9 @@ Here is the list of the fields disclosed in the log: <br/>
 **Standard price** - The cost of the product or service before discount <br/>
 <br/>
  <br/>
-<ins>**PROMOCODES:**<ins>  <br/>
+ <br/>
+**PROMOCODES:**  <br/>
+<br/> 
 **promocode** - Promocode for a discount<br/>
 <br/>
 **id_campaign** - Unique identifier of the marketing campaign associated with the promo code<br/>
