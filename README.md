@@ -38,8 +38,7 @@ Here is the list of the fields disclosed in the log: <br/>
 <br/>
 **Discount** - The discount rate (in percent) that the client receives when applying a promo code<br/>
 <br/>
-**Campaign name** - Name of the marketing campaign<br/>
-<br/>
+**Campaign name** - Name of the marketing campaign
 <br/>
 <br/>
 ## Data cleaning and preprocessing
@@ -52,4 +51,18 @@ Since the salon renders hair services as well as sells hair products, the catego
 In order to dive into analysis of promo campaigns the information about applied discount (percent and absolute value) was mapped to each transaction. Based on that we were able to derive the amount after discount - the net amount received by the salon. 
 <br/>
 <br/>
+## Executive summary report
+<br/>
+<img width="489" height="302" alt="Revenues consistently exceed expenses, keeping the business profitable" src="https://github.com/user-attachments/assets/ac92724f-8ebf-4c10-8db5-c4f1ff76e189" />
+
+<img width="489" height="302" alt="Only 3% of total revenue comes from products" src="https://github.com/user-attachments/assets/2a83c3df-223e-41ed-881b-f5eea6d0135a" />
+
+<img width="990" height="607" alt="Haircuts and styling services represent the primary source of revenue" src="https://github.com/user-attachments/assets/ecc226d0-07ba-492d-b281-32c1e8607bad" />
+
+<img width="990" height="602" alt="Payroll constitutes the largest expense category, making up 75% of total costs" src="https://github.com/user-attachments/assets/e6da5453-6dc3-4c7c-87b7-ce10d79e8af6" />
+<img width="610" height="283" alt="Lowest-performing promo campaigns by lost revenue" src="https://github.com/user-attachments/assets/8a4a9bb2-7a1d-499e-a11c-8a58c2c4c556" />
+<img width="971" height="514" alt="Demand for haircuts and styling services remains steady with a slight decrease from April to May due to vacation of some employees" src="https://github.com/user-attachments/assets/f0820ca1-9e0c-4f3d-876e-4c32060d1fc1" />
+<img width="971" height="522" alt="Demand for hair products remained stable  The increasing trend for hair gel might indicate that more people may have become aware of the importance of gel for styling curly hair" src="https://github.com/user-attachments/assets/0f12e442-ca23-4dcf-bf9d-aa3d04201d86" />
+
+
 
