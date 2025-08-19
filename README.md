@@ -33,10 +33,15 @@ Here is the list of the fields disclosed in the log: <br/>
  <br/>
 **PROMOCODES:**  <br/>
 <br/> 
-**promocode** - Promocode for a discount<br/>
+**Promocode** - Promocode for a discount<br/>
 <br/>
-**id_campaign** - Unique identifier of the marketing campaign associated with the promo code<br/>
+**ID campaign** - Unique identifier of the marketing campaign associated with the promo code<br/>
 <br/>
-**discount** - The discount rate (in percent) that the client receives when applying a promo code<br/>
+**Discount** - The discount rate (in percent) that the client receives when applying a promo code<br/>
 <br/>
-**campaign_name** - Name of the marketing campaign<br/>
+**Campaign name** - Name of the marketing campaign<br/>
+<br/>
+<br/>
+<br/>
+## Data cleaning and preprocessing
+Prior to working with the dataset it was cleaned from duplicates, manual errors and anomalies. The NULL values in the *Standard price* column were replaced with corresponding values based on the price list after consulting with the stakeholders who confirmed it's the right way to proceed. The cells containing blank spaces were trimmed, and the formatting was fixed. 
