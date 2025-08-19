@@ -1,4 +1,4 @@
-# Business-Insights-for-Wave-Hair-Studio
+# Business Insights for Wave Hair Studio
 ## Business context
 The Waves salon has been on the market for six months, delighting clients with curly hairstyles. Like any business, they are focused on increasing profitability. Their reporting is managed manually in Google Sheets, and they provided us with exported data. The goal is to analyze the structure of income and expenses: how much is spent on operations, what revenue is generated, the main expense categories, and the key sources of income. <br/>
 
@@ -49,4 +49,4 @@ Prior to working with the dataset it was cleaned from duplicates, manual errors 
 ## Data enrichment
 The new attributes and calculated fields were added to the initial dataset for further analysis. The new fileds are colored in blue while initial ones are marked green. 
 Since the salon renders hair services as well as sells hair products, the categorization between service and physical product was introduced to understand the content of revenue.
-In order to dive into analysis of promo campaigns the information about applied discount (percent and absolute value) was mapped to each transaction. Based on that we were able too derive the amount after discount - the net amount received by the salon. 
+In order to dive into analysis of promo campaigns the information about applied discount (percent and absolute value) was mapped to each transaction. Based on that we were able to derive the amount after discount - the net amount received by the salon. 
