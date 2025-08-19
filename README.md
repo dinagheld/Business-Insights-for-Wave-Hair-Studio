@@ -8,17 +8,17 @@ b. measure how much revenue the salon loses due to discounts; <br/>
 c. calculate the average check amount for each promo campaign. <br/>
 
 # Data structure and its description
-The log the salon has provided us with is stored in Google Sheets and has 2 sheets: export and promocodes. In the 'export' sheet we have all the transactions the salon encountered with, containing both income and expense content for the 6 months of operation. The 'promocodes' sheet holds information about marketing campaigns employed to support the sales, revealing data about the campaign that was used and the its discount given to customers. 
-
-Here is the list of the fields disclosed in the log:
-'export':
-*ID* - A unique identification code is assigned to both income and expense transactions. The identifier is entered manually and represents a sequential transaction number.
-*Transaction* - Information indicating whether the transaction relates to income or expenses
-*Type* - Information about the payment method: cashless or cash payment 
-*Category* - Name of the product or service being paid for
-*Order date and time* - Despite its naming the field disclosed only date, no time specified
-*Promocode* - Promocode for the discount if used
-*Standard price* - The cost of the product or service before discount
-
-'promocodes':
+The log the salon has provided us with is stored in Google Sheets and has 2 sheets: export and promocodes. In the 'export' sheet we have all the transactions the salon encountered with, containing both income and expense content for the 6 months of operation. The 'promocodes' sheet holds information about marketing campaigns employed to support the sales, revealing data about the campaign that was used and the its discount given to customers.  <br/>
+ <br/>
+Here is the list of the fields disclosed in the log: <br/>
+'export': <br/>
+**ID** - A unique identification code is assigned to both income and expense transactions. The identifier is entered manually and represents a sequential transaction number. <br/>
+**Transaction** - Information indicating whether the transaction relates to income or expenses <br/>
+**Type** - Information about the payment method: cashless or cash payment  <br/>
+**Category** - Name of the product or service being paid for <br/>
+**Order date and time** - Despite its naming the field disclosed only date, no time specified <br/>
+**Promocode** - Promocode for the discount if used <br/>
+**Standard price** - The cost of the product or service before discount <br/>
+ <br/>
+'promocodes': <br/>
 
