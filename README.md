@@ -13,13 +13,13 @@ The log the salon has provided us with is stored in Google Sheets and has 2 shee
  <br/>
 Here is the list of the fields disclosed in the log: <br/>
 <br/>
-**EXPORT:** <br/>
+**EXPORT Sheet:** <br/>
  <br/>
 **ID** - A unique identification code is assigned to both income and expense transactions. The identifier is entered manually and represents a sequential transaction number. <br/>
 <br/>
 **Transaction** - Information indicating whether the transaction relates to income or expenses <br/>
 <br/>
-**Type** - Information about the payment method: cashless or cash payment  <br/>
+**Payment type** - Information about the payment method: cashless or cash payment  <br/>
 <br/>
 **Category** - Name of the product or service being paid for <br/>
 <br/>
@@ -30,7 +30,7 @@ Here is the list of the fields disclosed in the log: <br/>
 **Standard price** - The cost of the product or service before discount <br/>
 <br/>
 <br/>
-**PROMOCODES:**  <br/>
+**PROMOCODES Sheet:**  <br/>
 <br/> 
 **Promocode** - Promocode for a discount<br/>
 <br/>
@@ -48,5 +48,8 @@ Prior to working with the dataset it was cleaned from duplicates, manual errors 
 <br/>
 ## Data enrichment
 The new attributes and calculated fields were added to the initial dataset for further analysis. The new fileds are colored in blue while initial ones are marked green. 
-Since the salon renders hair services as well as sells hair products, the categorization between service and physical product was introduced to understand the content of revenue.
+Since the salon renders hair services as well as sells hair products, the categorization between service and physical product was introduced to understand the content of revenue (Item type).
 In order to dive into analysis of promo campaigns the information about applied discount (percent and absolute value) was mapped to each transaction. Based on that we were able to derive the amount after discount - the net amount received by the salon. 
+<br/>
+<br/>
+
