@@ -60,8 +60,7 @@ The Waves salon team has recently entered the market. Profitability analysis sho
 <br/>
 <br/>
 <br/>
-<img width="489" height="302" alt="Revenues consistently exceed expenses, keeping the business profitable" src="https://github.com/user-attachments/assets/ac92724f-8ebf-4c10-8db5-c4f1ff76e189" />
-<img width="489" height="302" alt="Only 3% of total revenue comes from products" src="https://github.com/user-attachments/assets/2a83c3df-223e-41ed-881b-f5eea6d0135a" />
+<img width="489" height="302" alt="Revenues consistently exceed expenses, keeping the business profitable" src="https://github.com/user-attachments/assets/ac92724f-8ebf-4c10-8db5-c4f1ff76e189" /><img width="489" height="302" alt="Only 3% of total revenue comes from products" src="https://github.com/user-attachments/assets/2a83c3df-223e-41ed-881b-f5eea6d0135a" />
 <br/>
 <br/>
 <br/>
